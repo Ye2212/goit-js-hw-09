@@ -16,7 +16,7 @@ function onInputChange(evt){
 
     formData[evt.target.name] = evt.target.value; //  formData.email = emailEl.value; formData.message = textareaEl.value;
     localStorage.setItem(FORM_STATE, JSON.stringify(formData));
-    console.log(formData);
+    // console.log(formData);
 
 }
 function onFormSubmit (evt) {

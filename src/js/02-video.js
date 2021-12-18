@@ -12,6 +12,9 @@ function onPlay ({ seconds }) {
 }
 setCurrentTime()
 function setCurrentTime(){
+    if(!localStorage.getItem(CURRENT_TIME)){
+        return
+    }
     player.setCurrentTime(localStorage.getItem(CURRENT_TIME))
 }
 
