@@ -24,6 +24,7 @@ function onFormSubmit (evt) {
     console.log(formData)
     console.log('Message sent!');
     evt.target.reset();
+    formData = {};
     localStorage.removeItem(FORM_STATE);
 }
 
