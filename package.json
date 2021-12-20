@@ -1,23 +1,23 @@
 {
-  "name": "goit-js-hw-08",
+  "name": "goit-js-hw-09",
   "version": "1.0.0",
-  "description": "",
+  "description": "Включите отображение скрытых файлов и папок в проводнике своей операционной системы, иначе вы не\r сможете выбрать и скопировать себе файлы настроек проекта, имена которых начинаются с точки.",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ye2212/goit-js-hw-08.git"
+    "url": "git+https://github.com/Ye2212/goit-js-hw-09.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ye",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ye2212/goit-js-hw-08/issues"
+    "url": "https://github.com/Ye2212/goit-js-hw-09/issues"
   },
-  "homepage": "https://github.com/Ye2212/goit-js-hw-08#readme",
+  "homepage": "https://github.com/Ye2212/goit-js-hw-09#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
@@ -26,8 +26,6 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "@vimeo/player": "^2.16.2",
-    "lodash.throttle": "^4.1.1",
-    "simplelightbox": "^2.10.1"
+
   }
 }
