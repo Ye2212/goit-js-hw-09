@@ -9,7 +9,7 @@ const daysEl = document.querySelector('span[data-days]');
 const hoursEl = document.querySelector('span[data-hours]');
 const minutesEl = document.querySelector('span[data-minutes]');
 const secondsEl = document.querySelector('span[data-seconds]');
-console.dir(buttonEl)
+// console.dir(buttonEl)
 buttonEl.classList.add('disabled');
 let userDate = null;
 
